@@ -3,7 +3,7 @@ Team Members:
 
 Priyanka Devendran- (id:015231411) Contribution: MSR code for controls : Primary Procbased Secondary Procbased
 
-Preeti Parihar -(id: ) Contribution: MSR code for controls: Entry Exit
+Preeti Parihar -(id:015218073) Contribution: MSR code for controls: Entry Exit
 
 Prerequisites • A machine capable of running Linux, with VMX virtualization features exposed.
 
