@@ -114,18 +114,18 @@ Following are the steps to be followed:
 7. We need to create the makefile to compile the module, In our case makefile is present in the canvas.
 Use below command to compile the module:
 
-cd cmpe283
+    cd cmpe283
 
-make
+    make
 
 8. When we insert the module in the kernel, the module_init marco will be invoked, which will in turn call the function init_module defined in code. Use sudo because we can not make changes in user mode.
 
-Command: sudo insmod ./cmpe283-1.ko
+    Command: sudo insmod ./cmpe283-1.ko
 
 9. Once loaded the VMX features must  be logged in the kernel log and this can be checked by using the command: dmesg
 
 10. When we unload the module the rmmod, module_exit macro will be invoked, which will in turn call the cleanup_module defined in code.
 
-Command:  sudo rmmod ./cmpe283-1.ko
+    Command:  sudo rmmod ./cmpe283-1.ko
 
 11. When finally implemented all the requirement mentioned in the assignment do git commit.
