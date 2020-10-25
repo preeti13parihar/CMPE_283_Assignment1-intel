@@ -75,11 +75,9 @@ Change to the Linux folder and configure the modules to be included/excluded:
 
 make menuconfig
 
-Check for number of processing units available using nproc in our case its 2:
+Check for number of processing units available using nproc and use sudo make modules_install to install parts of the kernel:
 
-nproc
-
-sudo make -j 2 && sudo make modules_install -j 2 && sudo make install -j 2
+nproc(It will result number of available processing units in our case its 2 )
 
 Use update-grub command to automatically look for the /boot folder and adds them to the grub’s config file:
 
