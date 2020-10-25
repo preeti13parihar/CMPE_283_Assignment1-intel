@@ -29,6 +29,7 @@ Requirement: To create a Linux kernel module that will query various MSRs to det
 Functionality : • To read various MSRs to ascertain support capabilities/features - Entry / Exit / Procbased / Secondary Procbased / Pinbased controls • For each group of controls above, interpret and output the values read from the MSR to the system via printk(..), including if the value can be set or cleared.
 
 SETUP the Environment:
+
 •	We installed VMware fusion 12.x Pro in Macbook then Downloaded the ISO disk image for Ubuntu Desktop(Ubuntu 20.04.1 LTS).
 
 •	Created Virtual Machine by allocating 200GB storage and 4GB RAM.
@@ -94,6 +95,7 @@ cat /proc/cpuinfo | more (if you able to see vmm in your output it means environ
 
 
 Module Development:
+
 Following are the steps to be followed:
 
 1. Create a new directory named “cmpe283” by using mkdir:
