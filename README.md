@@ -29,6 +29,7 @@ SETUP the Environment:
 •	Now build the linux kernel using the following command:
 Install Git:
 sudo apt-get update
+
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
 
 Check version of current linux kernel:
@@ -54,6 +55,7 @@ make menuconfig
 
 Check for number of processing units available using nproc in our case its 2:
 nproc
+
 sudo make -j 2 && sudo make modules_install -j 2 && sudo make install -j 2
 
 Use update-grub command to automatically look for the /boot folder and adds them to the grub’s config file:
