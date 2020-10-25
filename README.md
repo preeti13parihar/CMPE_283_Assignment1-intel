@@ -5,6 +5,7 @@ CMPE_283_Assignment1-intel
 Team Members:
 
 Priyanka Devendran- (id:015231411) 
+
 •	Setup the environment in Mac using VMware Fusion and installed Ubuntu.
 
 •	Discussed and Researched about MSRs to be read in the SDM. 
@@ -12,6 +13,7 @@ Priyanka Devendran- (id:015231411)
 •	Contribution: MSR code for controls : Primary Procbased, Secondary Procbased.
 
 Preeti Parihar -(id:015218073)
+
 •	Setup the environment in Mac using VMware Fusion 12.x Pro(Student Licence) and download the ISO disk image file for Ubuntu Desktop(Ubuntu 20.04.1 LTS). Created VM successfully in first attempt by allocating 200GB storage and 4GB RAM.
 
 •	Researched and Discussed about MSRs to be read in the SDM and help each other writing and executing the code.
