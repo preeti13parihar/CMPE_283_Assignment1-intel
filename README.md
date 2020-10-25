@@ -31,7 +31,7 @@ Install Git:
 sudo apt-get update
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
 
-Check version of current linux kernel
+Check version of current linux kernel.
 uname –r
 
 Clone the Git repository for the latest linux kernel source code :
@@ -40,7 +40,7 @@ git clone https://github.com/torvalds/linux.git
 Change to the cloned directory:
 cd linux
 
-Do git log and Note the COMMIT id - Record the head commit ID of your tree
+Do git log and Note the COMMIT id - Record the head commit ID of your tree.
 git log
 sample output:
 preeti@ubuntu:~/linux$ git log
@@ -49,20 +49,20 @@ Merge: af0041875ce7 24f7bb8863eb
 Author: Linus Torvalds <torvalds@linux-foundation.org>
 Date:   Sat Oct 24 12:46:42 2020 -0700
 
-Change to the Linux folder and configure the modules to be included/excluded
+Change to the Linux folder and configure the modules to be included/excluded.
 make menuconfig
 
-Check for number of processing units available using nproc in our case its 2
+Check for number of processing units available using nproc in our case its 2.
 nproc
 sudo make -j 2 && sudo make modules_install -j 2 && sudo make install -j 2
 
-Use update-grub command to automatically look for the /boot folder and adds them to the grub’s config file
+Use update-grub command to automatically look for the /boot folder and adds them to the grub’s config file.
 update-grub
 
-Again check for the version and make sure it shows latest kernel version
+Again check for the version and make sure it shows latest kernel version.
 uname –r
 
-To make sure Environment setup properly run following command and look for vmm
+To make sure Environment setup properly run following command and look for vmm.
 cat /proc/cpuinfo | more (if you able to see vmm in your output it means environment setup properly, if vmm is not present it means you have to enable it(see bullet point 3 for how to enable) otherwise the output will be 0x0 which is not correct)
 
 
