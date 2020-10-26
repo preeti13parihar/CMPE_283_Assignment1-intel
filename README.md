@@ -52,9 +52,15 @@ SETUP the Environment:
 
     git clone https://github.com/torvalds/linux.git
 
-4. Change to the cloned directory:
+4. Change to the cloned directory and run following commands:
     
     cd linux
+    
+    sudo bash
+    
+    apt-get install build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache bison flex libelf-dev
+    
+    cp /boot/config-4.15.0-112-generic    ./.config    
 
 5. Do git log and Note the COMMIT id - Record the head commit ID of your tree:
 
