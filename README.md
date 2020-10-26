@@ -119,7 +119,7 @@ Module Development:
 
 Following are the steps to be followed:
 
-1. Create a new directory named “cmpe283” by using mkdir:
+1. Create a new directory named “cmpe283” by using mkdir in previously cloned linux source folder:
     mkdir cmpe283
 
 2. Save the files cmpe283-1.c and Makefile in cmpe283 directory, from files section of Canvas provided by the Professor(in our case).
