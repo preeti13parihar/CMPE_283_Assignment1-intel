@@ -93,7 +93,7 @@ SETUP the Environment:
 
 9. Again check for the version and make sure it shows latest kernel version use uname -r or uname -a:
     
-    uname –r (sample output: 5.4.0-52-generic)
+    uname –r 
 
 10. To make sure Environment setup properly run following command and look for vmm:
 
@@ -119,7 +119,7 @@ To build the kernel (once you have cloned the Linux git repository), the followi
 
 7. Verify that you are using the newer kernel (5.8, etc) after reboot:
 
-    uname -a (sample output: Linux ubuntu 5.4.0-52-generic #57-Ubuntu SMP Thu Oct 15 10:57:00 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux)
+    uname -a 
 
 Module Development:
 
