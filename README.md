@@ -45,7 +45,6 @@ sudo apt-get update
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
 
 Check version of current linux kernel:
-
 uname –r
 
 Clone the Git repository for the latest linux kernel source code :
@@ -53,7 +52,6 @@ Clone the Git repository for the latest linux kernel source code :
 git clone https://github.com/torvalds/linux.git
 
 Change to the cloned directory:
-
 cd linux
 
 Do git log and Note the COMMIT id - Record the head commit ID of your tree:
@@ -72,7 +70,6 @@ Author: Linus Torvalds <torvalds@linux-foundation.org>
 Date:   Sat Oct 24 12:46:42 2020 -0700
 
 Change to the Linux folder and configure the modules to be included/excluded:
-
 make menuconfig
 
 Check for number of processing units available using nproc and use sudo make modules_install to install parts of the kernel:
@@ -80,11 +77,9 @@ Check for number of processing units available using nproc and use sudo make mod
 nproc(It will result number of available processing units in our case its 2 )
 
 Use update-grub command to automatically look for the /boot folder and adds them to the grub’s config file:
-
 update-grub
 
 Again check for the version and make sure it shows latest kernel version:
-
 uname –r
 
 To make sure Environment setup properly run following command and look for vmm:
